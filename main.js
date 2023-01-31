@@ -48,7 +48,7 @@ const lists = document.querySelectorAll('[data-list]');
 const products = document.querySelectorAll('[data-product]');
 const btns = document.querySelectorAll('.buy__now');
 const box = document.createElement('div');
-box.innerHTML = 'Товар у корзині';
+box.innerText = 'Товар у корзині';
 box.className = 'box'
 root.append(box)
 
